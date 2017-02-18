@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{BBBD7400-EFD3-4D21-8741-0B843A9D578F} = s 'ImageToWords'
+		'ImageToWords.EXE'
+		{
+			val AppID = s {BBBD7400-EFD3-4D21-8741-0B843A9D578F}
+		}
+	}
+}

@@ -1,0 +1,167 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageToWords - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release1/ImageToWords.tlb" /h "ImageToWords_i.h" /iid "ImageToWords_i.c" /Oicf /win32 "C:\Users\dell\Desktop\zh\ImageToWords.idl""
+Creating command line "rc.exe /l 0x804 /fo"Release1/ImageToWords.res" /d "NDEBUG" "C:\Users\dell\Desktop\zh\ImageToWords.rc"" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP3218.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release1/" /Fo"Release1/" /Fd"Release1/" /FD /c 
+"C:\Users\dell\Desktop\zh\BalanceInput.cpp"
+"C:\Users\dell\Desktop\zh\BlurInput.cpp"
+"C:\Users\dell\Desktop\zh\CharacterSetInput.cpp"
+"C:\Users\dell\Desktop\zh\ChuzaInput.cpp"
+"C:\Users\dell\Desktop\zh\DialogCommon.cpp"
+"C:\Users\dell\Desktop\zh\DiffuseInput.cpp"
+"C:\Users\dell\Desktop\zh\EdgeInput.cpp"
+"C:\Users\dell\Desktop\zh\FontComboBox.cpp"
+"C:\Users\dell\Desktop\zh\GrayenInput.cpp"
+"C:\Users\dell\Desktop\zh\ImageToWords.cpp"
+"C:\Users\dell\Desktop\zh\ImageToWordsDoc.cpp"
+"C:\Users\dell\Desktop\zh\ImageToWordsView.cpp"
+"C:\Users\dell\Desktop\zh\MainFrm.cpp"
+"C:\Users\dell\Desktop\zh\MaximumInput.cpp"
+"C:\Users\dell\Desktop\zh\MinimumInput.cpp"
+"C:\Users\dell\Desktop\zh\MotionBlurInput.cpp"
+"C:\Users\dell\Desktop\zh\PerspectiveInput.cpp"
+"C:\Users\dell\Desktop\zh\RotateInput.cpp"
+"C:\Users\dell\Desktop\zh\RuihuaInput.cpp"
+"C:\Users\dell\Desktop\zh\ScaleInput.cpp"
+"C:\Users\dell\Desktop\zh\SejieInput.cpp"
+"C:\Users\dell\Desktop\zh\StablelizeInput.cpp"
+"C:\Users\dell\Desktop\zh\Texture1Input.cpp"
+"C:\Users\dell\Desktop\zh\ToolProperties.cpp"
+"C:\Users\dell\Desktop\zh\TrimInput.cpp"
+"C:\Users\dell\Desktop\zh\WizFontsEnumerator.cpp"
+"C:\Users\dell\Desktop\zh\WordsTransformInput.cpp"
+"C:\Users\dell\Desktop\zh\WtEditOutput.cpp"
+"C:\Users\dell\Desktop\zh\YuzhiInput.cpp"
+"C:\Users\dell\Desktop\zh\ZhongZhiLvBo.cpp"
+"C:\Users\dell\Desktop\zh\Zidingyilvjing.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSP3218.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP3219.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release1/" /Fp"Release1/ImageToWords.pch" /Yc"stdafx.h" /Fo"Release1/" /Fd"Release1/" /FD /c 
+"C:\Users\dell\Desktop\zh\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSP3219.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP322A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release1/ImageToWords.pdb" /machine:I386 /out:"Release1/ImageToWords.exe" 
+.\Release1\BalanceInput.obj
+.\Release1\BlurInput.obj
+.\Release1\CharacterSetInput.obj
+.\Release1\ChuzaInput.obj
+.\Release1\DialogCommon.obj
+.\Release1\DiffuseInput.obj
+.\Release1\EdgeInput.obj
+.\Release1\FontComboBox.obj
+.\Release1\GrayenInput.obj
+.\Release1\ImageToWords.obj
+.\Release1\ImageToWordsDoc.obj
+.\Release1\ImageToWordsView.obj
+.\Release1\MainFrm.obj
+.\Release1\MaximumInput.obj
+.\Release1\MinimumInput.obj
+.\Release1\MotionBlurInput.obj
+.\Release1\PerspectiveInput.obj
+.\Release1\RotateInput.obj
+.\Release1\RuihuaInput.obj
+.\Release1\ScaleInput.obj
+.\Release1\SejieInput.obj
+.\Release1\StablelizeInput.obj
+.\Release1\StdAfx.obj
+.\Release1\Texture1Input.obj
+.\Release1\ToolProperties.obj
+.\Release1\TrimInput.obj
+.\Release1\WizFontsEnumerator.obj
+.\Release1\WordsTransformInput.obj
+.\Release1\WtEditOutput.obj
+.\Release1\YuzhiInput.obj
+.\Release1\ZhongZhiLvBo.obj
+.\Release1\Zidingyilvjing.obj
+.\Release1\ImageToWords.res
+]
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSP322A.tmp"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\Users\dell\Desktop\zh\ImageToWords.idl
+ImageToWords.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\basetsd.h
+basetsd.h
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\guiddef.h
+guiddef.h
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\msxml.idl
+msxml.idl
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\oaidl.acf
+oaidl.acf
+Processing E:\VC6\VC6\VC6\VC98\INCLUDE\ocidl.acf
+ocidl.acf
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BalanceInput.cpp
+BlurInput.cpp
+CharacterSetInput.cpp
+ChuzaInput.cpp
+DialogCommon.cpp
+DiffuseInput.cpp
+EdgeInput.cpp
+FontComboBox.cpp
+GrayenInput.cpp
+ImageToWords.cpp
+ImageToWordsDoc.cpp
+ImageToWordsView.cpp
+MainFrm.cpp
+MaximumInput.cpp
+MinimumInput.cpp
+MotionBlurInput.cpp
+PerspectiveInput.cpp
+RotateInput.cpp
+RuihuaInput.cpp
+ScaleInput.cpp
+Generating Code...
+Compiling...
+SejieInput.cpp
+StablelizeInput.cpp
+Texture1Input.cpp
+ToolProperties.cpp
+TrimInput.cpp
+WizFontsEnumerator.cpp
+WordsTransformInput.cpp
+WtEditOutput.cpp
+YuzhiInput.cpp
+ZhongZhiLvBo.cpp
+Zidingyilvjing.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ImageToWords.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

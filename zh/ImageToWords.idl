@@ -1,0 +1,19 @@
+
+	// ImageToWords.idl : IDL source for ImageToWords.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (ImageToWords.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(61ADB9BE-4B16-48A7-8A2A-647D75E473F5),
+	version(1.0),
+	helpstring("ImageToWords 1.0 Type Library")
+]
+library ImageToWordsLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	
